@@ -51,7 +51,7 @@ signUp.addEventListener('click', (event) => {
             return setDoc(docRef, userData);
         })
         .then(() => {
-            window.location.href = 'https://ekasi.framer.media/eKasi-Spotfinder-gif';
+            window.location.href = 'https://pay.ozow.com/f45a2df7-88cb-4a67-a741-1e8dfbd67beb/bank-selection/';
         })
         .catch((error) => {
             console.error("Error writing document", error);
@@ -71,7 +71,7 @@ signIn.addEventListener('click', (event) => {
             showMessage('Login is successful', 'signInMessage');
             const user = userCredential.user;
             localStorage.setItem('loggedInUserId', user.uid);
-            window.location.href = 'https://ekasi.framer.media/eKasi-Spotfinder-gif-2';
+            window.location.href = 'https://pay.ozow.com/f45a2df7-88cb-4a67-a741-1e8dfbd67beb/bank-selection/';
         })
         .catch((error) => {
             const errorCode = error.code;
